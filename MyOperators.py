@@ -8,3 +8,4 @@ print("O resultado da expressão #2 é:", VALOR)
 
 VALOR = (X + (Y * 2 + (Z / 10))) - 18
 print("O resultado da expressão #3 é:", VALOR)
+
