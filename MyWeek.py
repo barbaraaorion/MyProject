@@ -13,3 +13,12 @@ if SEMANA ==  "quinta":
 
 if SEMANA == "sexta":
     print("Concentre-se no trabalho e quando terminar, descanse!")
+
+# dia da semana treinando condicionais match/case...
+SEMANA = input("Digite o dia da semana:")
+
+match SEMANA:
+    case"segunda":
+        print("dia de lavar roupa!")
+    case "terça":
+        print("estudar!")    
