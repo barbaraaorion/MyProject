@@ -19,3 +19,4 @@ else:
         print("Não combinamos estas ações...")
 
     print("Tenha um bom dia!")    
+
