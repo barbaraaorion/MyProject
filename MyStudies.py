@@ -3,20 +3,13 @@ NOTA1 = float(input("Digite a nota 1:"))
 NOTA2 = float(input("Digite a nota 2:"))
 MEDIA = (NOTA1 + NOTA2) / 2
 
-if MEDIA <=4:
-    print("Aluno reprovado.")
-if MEDIA >=6:
-    print("Aluno aprovado direto!") 
- 
-
-    if MEDIA >4 or MEDIA <6:
-        print("Aluno em recuperação!")
+if MEDIA >= 6:
+    print("Aluno aprovado.")
+elif MEDIA >=4 and MEDIA <=6:
+   NOTA3 = float(input("Digite a nota da recuperação: "))
+   if NOTA3 >=5:
+       print(" Aprovado na recuperação.")
+   if NOTA3 < 5:
+       print("Reprovado na recuperação")
 else:
-
-    RECUPERACAO = float(input("Digite a nota da recuperação:"))
-if RECUPERACAO <=5:
-    print("Reprovado na recuperação." )
-if RECUPERACAO >5:
-    print("Aprovado na recuperação!")    
-
-
+    print("Estudante reprovado.")           
